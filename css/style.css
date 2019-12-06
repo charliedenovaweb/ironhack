@@ -1,0 +1,261 @@
+
+*{box-sizing:border-box; }
+
+h1,h2,h3,a,p{   font-family: 'League Spartan Bold',Helvetica, arial;}
+
+a{text-decoration: none;}
+
+h1, h3{ color:#979797; }
+
+h1{font-size:82px; line-height:100px;}
+h2{font-size:78px; line-height:100px;}
+h3{font-size:35px; text-align:left; line-height:50px;}
+
+#container{
+
+    width:100%; 
+    margin:0 auto;
+    padding: 0%;   
+}
+
+
+/*Cabecera*/
+
+#intro{
+
+background-color:#151515;
+padding:10% 12%;
+width:100%;
+
+}
+
+#logo{width:20%; object-fit: cover;}
+
+.bio{ width:80%; 
+        float:left;}
+
+/* .logo{ width:20%; 
+        float:right;} */
+
+#clear{clear:both;}
+
+.strong{ color: #EFEFEF;}
+
+
+/*UX*/
+
+#ux{
+
+    background-color:#979797;
+    padding:12% 16%;
+    width:100%;
+    }
+
+    .left{ width:50%; float:left;}
+    .right{ width:50%; float:right; text-align:center;}
+    .clear{clear:both;}
+
+    #mockup-ux{width:45%;
+               text-align:center; 
+               transform: rotate(15deg); 
+               padding-bottom:12%;
+            }
+
+    .strong-white{color:#EFEFEF;}
+
+/*WEB*/
+
+#web{
+    background-color:#B6B6B6;
+    padding:12% 16%;
+    width:100%;
+}
+
+#mockup-web{width:100%; text-align:center; }
+
+/********/
+
+/*ILLUSTRATION*/
+
+#illustration{
+
+        background-color:#EFEFEF;
+        padding:12% 16%;
+        width:100%;
+}
+
+#mockup-ilus{width:90%; text-align:center; }
+
+.strong-ilus{color:#979797;}
+
+.button{ width:200px; 
+        padding:5%; 
+        box-sizing:border-box; 
+        background-color:#151515; 
+        color: #EFEFEF; 
+        text-align:center; 
+        font-family: Nunito;
+    }
+
+
+.button:hover{ background-color:#979797; color: #EFEFEF; }
+.btn-dark:hover{ background-color:#EFEFEF; color: #151515; }
+.btn-light:hover{ background-color:#979797; color: #151515; }
+
+/********/
+
+
+/*FOOTER*/
+
+footer{
+    background-color:#151515;
+    padding:5%;
+    width:100%;
+    margin:0 auto;
+
+}
+
+.container-footer{ width:80%; margin:0 auto; }
+
+.tres{ width:33%; float:left; text-align:center;}
+
+#logo-footer{ width:35%;}
+
+ul{list-style-type: none;}
+
+.a-fu{color:white; font-family:Nunito;}
+
+li{ margin-bottom:15px; }
+
+
+
+/*VISTA MÓVIL*/
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+
+    #logo{width:250px; 
+        margin:0 auto; 
+        text-align:center; 
+        object-fit: cover;
+    }
+
+    .bio{ width:100%; 
+        }
+            
+h1{font-size:28px; line-height:40px;}
+h2{font-size:42px; line-height:50px;}
+h3{font-size:20px; line-height:40px; text-align:left; }
+
+/********/
+
+/*UX*/
+
+#ux{
+
+    background-color:#979797;
+    padding:12%;
+    width:100%;
+    }
+
+    .left{ width:100%; 
+        clear:both; 
+        margin-bottom:80px;
+    }
+
+    .right{ width:100%; clear:both; text-align:center;}
+
+    .clear{clear:both;}
+
+    
+    .button{ width:200px; padding:10%; 
+             box-sizing:border-box; 
+             background-color:#151515; 
+             color: #EFEFEF; 
+             text-align:center; 
+             font-family: Nunito; }
+
+    #mockup-ux{width:50%; 
+               text-align:center; 
+               transform: rotate(15deg);
+            }
+
+    .strong-white{color:#EFEFEF;}
+
+    /********/
+
+
+/*WEB*/
+
+#web{
+    background-color:#B6B6B6;
+    padding:12% 12%;
+    width:100%;
+}
+
+
+.clear{clear:both;}
+
+#mockup-web{width:100%; text-align:center; }
+
+/********/
+
+
+/*ILLUSTRATION*/
+
+#illustration{
+
+        background-color:#EFEFEF;
+        padding:12% 12%;
+        width:100%;
+}
+
+
+.clear{clear:both;}
+
+#mockup-ilus{width:100%; 
+            text-align:center; 
+        }
+
+.strong-ilus{color:#979797;}
+
+/********/
+
+
+/*FOOTER*/
+
+footer{
+    background-color:#151515;
+    padding:5%;
+    width:100%;
+    margin:0 auto;
+
+}
+
+.container-footer{ width:100%; 
+                   margin:0 auto; 
+                }
+
+.tres{ width:100%; 
+       float:left; 
+       text-align:center;
+    }
+
+#logo-footer{ width:100%; 
+              margin:0 auto;
+            }
+
+ul{list-style-type: none; 
+    padding:8% 0% 0% 0%; 
+    margin:0 auto;
+}
+
+.a-fu{color:white; 
+    font-family:Nunito;
+}
+
+li{ margin-bottom:15px; }
+
+
+
+
+}
